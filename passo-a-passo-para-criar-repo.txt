@@ -1,0 +1,9 @@
+Para criar o repositorio faça o seguinte:
+
+Crie uma pasta qualquer;
+Abra o git bash na pasta criada e rode o comando "git init";
+Caso queira verificar a situação do monitoramento da pasta, rode o comando "git status";
+Para adicionar à lista de envio os possíveis arquivos categorizados como "untracked", rode o comando "git add <nome-do-arquivo || *>;
+Rode o comando "git commit -m 'mensagem descritiva sobre o arquivo') para salvar o estado atual do arquivo;
+Configure o repositorio remoto com o comando "git remote add origin <link do repositorio criado no Github>"
+Por fim, rode o comando "git push origin master" para enviar os arquivos do repositorio "master" para o repositorio configurado como origin.
